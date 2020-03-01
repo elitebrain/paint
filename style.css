@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.canvas {
+  width: 628px;
+  height: 400px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+  margin: 30px 0;
+  border-radius: 20px;
+}
+.range {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: initial;
+}
+.range > div {
+  font-size: 12px;
+}
+.range > input[type="range"] {
+  -webkit-appearance: none;
+  background-color: #44e6;
+  height: 12px;
+  margin: 0;
+  outline: none;
+  border-radius: 30px;
+}
+.range > input[type="range"]::-webkit-slider-thumb {
+  border: 1px solid #44e9;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #44e;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: 0px; /*chrome의 경우 margin-top값을 부여해야합니다.*/
+}
+.btns > button {
+  text-transform: uppercase;
+  margin: 5px;
+  width: 70px;
+}
+.btns > button:hover {
+  cursor: pointer;
+}
+.colors {
+  width: 628px;
+  height: 60px;
+  line-height: 60px;
+  margin: auto;
+}
+.colors > .color {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.colors > .color:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <canvas class="canvas"></canvas>
+    <div class="controls">
+      <div class="btns">
+        <button id="fillBtn">fill</button>
+        <button id="clearBtn">clear</button>
+        <button id="saveBtn">save</button>
+      </div>
+      <div class="colors">
+        <div class="range">
+          <input
+            type="range"
+            id="jsRange"
+            min="0.1"
+            max="5.0"
+            value="2.5"
+            step="0.1"
+          />
+          <div>
+            <span>Line Width : </span>
+            <span id="lineWidth">2.5</span>
+          </div>
+        </div>
+        <span class="color" style="background-color: #2c2c2c;"></span>
+        <span class="color" style="background-color: red;"></span>
+        <span class="color" style="background-color: orange;"></span>
+        <span class="color" style="background-color: yellow;"></span>
+        <span class="color" style="background-color: green;"></span>
+        <span class="color" style="background-color: blue;"></span>
+        <span class="color" style="background-color: navy;"></span>
+        <span class="color" style="background-color: purple;"></span>
+      </div>
+    </div>
+    <script src="painting.js"></script>
+  </body>
+</html>
