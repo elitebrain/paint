@@ -1,1 +1,2 @@
 # paint
+# lotto
